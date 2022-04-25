@@ -81,7 +81,7 @@ export class otelEcsFargateCdkStack extends Stack {
       command: ["--config=/etc/ecs/ecs-amp-xray.yaml"],
       environment: {
           "REGION": "ap-southeast-1",
-          "AWS_PROMETHEUS_ENDPOINT": "https://aps-workspaces.ap-southeast-1.amazonaws.com/workspaces/ws-8b87f154-6bae-4fed-bea2-d485166bdf58/api/v1/remote_write",
+          "AWS_PROMETHEUS_ENDPOINT": "<REPLACE WITH YOUR AMP ENDPOINT>",
       },
     }
     )
