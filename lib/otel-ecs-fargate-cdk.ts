@@ -6,7 +6,7 @@ import * as logs from 'aws-cdk-lib/aws-logs';
 
 
 
-export class otelEcsFargateCdkStack extends Stack {
+export class OtelEcsFargateCdkStack extends Stack {
   constructor(scope: Construct, id: string, props?: StackProps) {
     super(scope, id, props);
 
